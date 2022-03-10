@@ -13,12 +13,12 @@ public class Traffic_lights {
         traffic_colors.add("Yellow");
         traffic_colors.add("Red");
 
-        // Facilitating the element of randomness
+        // Inputing the element of randomness
         Random random_color = new Random();
 
         int i = random_color.nextInt(3);
 
-        // Returning the traffic light color as a String
+        // Returning the traffic light color as a string
         String traffic_color = traffic_colors.get(i);
         return traffic_color;
     }
